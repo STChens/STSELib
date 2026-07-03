@@ -93,6 +93,8 @@ PLAT_UI16 stse_platform_Crc16_Accumulate(PLAT_UI8 *pbuffer, PLAT_UI16 length);
  * \return     None
  */
 void stse_platform_Delay_ms(PLAT_UI32 delay_val);
+void stse_platform_timeout_ms_start(PLAT_UI16 timeout_val);
+PLAT_UI8 stse_platform_timeout_ms_get_status(void);
 
 /*!
  * \brief      Verify ECC signature

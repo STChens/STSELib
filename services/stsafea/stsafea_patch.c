@@ -20,7 +20,7 @@
 
 #ifdef STSE_CONF_STSAFE_A_SUPPORT
 
-stse_ReturnCode_t stsafe_get_patch_update_command_counter(
+stse_ReturnCode_t stsafea_get_patch_update_command_counter(
     stse_Handler_t *pSTSAFE,
     PLAT_UI8 pPatch_update_command_counter) {
     (void)pSTSAFE;
@@ -28,19 +28,19 @@ stse_ReturnCode_t stsafe_get_patch_update_command_counter(
     return STSE_SERVICE_INVALID_PARAMETER; /* TODO */
 }
 
-stse_ReturnCode_t stsafe_patch_start(
+stse_ReturnCode_t stsafea_patch_start(
     stse_Handler_t *pSTSAFE) {
     (void)pSTSAFE;
     return STSE_SERVICE_INVALID_PARAMETER; /* TODO */
 }
 
-stse_ReturnCode_t stsafe_patch_update(
+stse_ReturnCode_t stsafea_patch_update(
     stse_Handler_t *pSTSAFE) {
     (void)pSTSAFE;
     return STSE_SERVICE_INVALID_PARAMETER; /* TODO */
 }
 
-stse_ReturnCode_t stsafe_patch_finalize(
+stse_ReturnCode_t stsafea_patch_finalize(
     stse_Handler_t *pSTSAFE) {
     (void)pSTSAFE;
     return STSE_SERVICE_INVALID_PARAMETER; /* TODO */

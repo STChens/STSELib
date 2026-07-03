@@ -97,6 +97,9 @@ typedef struct {
     uint32_t counter_value;
 } stsafea_data_partition_record_t;
 
+stse_ReturnCode_t stsafea_switch_data_partition_access_protection(stse_Handler_t *pSTSE, PLAT_UI8 command_code, stse_cmd_protection_t protection);
+
+
 /**
  * \brief 			STSAFEA get total partition count service
  * \details 		This service format and send/receive STSAFE-Axxx start hash command/response
