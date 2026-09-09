@@ -136,6 +136,8 @@ void stse_frame_pop_element(stse_frame_t *pFrame);
  */
 void stse_frame_debug_print(stse_frame_t *pFrame);
 
+void stse_append_frame(stse_frame_t *pFrame1, stse_frame_t *pFrame2);
+
 /*! @}*/
 
 #endif /* STSAFE_FRAME_H */

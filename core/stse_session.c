@@ -24,6 +24,9 @@
 #include "core/stse_return_codes.h"
 
 /* Public functions ----------------------------------------------------------*/
+void stse_session_erase_context(stse_session_t *pSession);
+stse_ReturnCode_t stse_set_active_session(stse_Handler_t *pSTSE, stse_session_t *pSession);
+
 void stse_session_erase_context(stse_session_t *pSession) {
     /* - Check stsafe handler initialization */
     if (pSession == NULL) {

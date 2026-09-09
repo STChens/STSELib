@@ -109,7 +109,7 @@ void stse_certificate_set_stse_companion(stse_Handler_t *pSTSE);
 /**
  * \brief Reset the certificate parser STSAFE-A companion
  */
-void stse_certificate_reset_stse_companion();
+void stse_certificate_reset_stse_companion(void);
 
 /** @}*/
 
