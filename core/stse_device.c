@@ -44,8 +44,7 @@ stse_ReturnCode_t stse_set_default_handler_value(stse_Handler_t *pStseHandler) {
     pStseHandler->io.PowerLineOff = stse_platform_power_off;
     pStseHandler->io.PowerLineOn = stse_platform_power_on;
     pStseHandler->io.busID = 0;
-    //pStseHandler->io.Devaddr = 0x20;
-    pStseHandler->io.Devaddr = 0x40; // The address need to be 0x40 if we are using I2C HAL driver
+    pStseHandler->io.Devaddr = 0x20;
     pStseHandler->io.BusSpeed = 100;
 #if defined(STSE_CONF_STSAFE_A_SUPPORT) || \
     (defined(STSE_CONF_STSAFE_L_SUPPORT) && defined(STSE_CONF_USE_I2C))
