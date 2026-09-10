@@ -113,6 +113,8 @@ stse_ReturnCode_t stse_frame_crc16_compute(stse_frame_t *pFrame, PLAT_UI16 *pCrc
  */
 void stse_frame_element_swap_byte_order(stse_frame_element_t *pElement);
 
+void stse_append_frame(stse_frame_t *pFrame1, stse_frame_t *pFrame2);
+
 /**
  * \brief 			Push frame element into frame
  * \details 		This core function set selected element as the frame last one

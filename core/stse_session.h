@@ -31,5 +31,6 @@
  * \details 	\include{doc} stsafe_erase_context.dox
  */
 void stse_session_erase_context(stse_session_t *pSession);
+stse_ReturnCode_t stse_set_active_session(stse_Handler_t *pSTSE, stse_session_t *pSession);
 
 #endif /* STSE_SESSION_H */

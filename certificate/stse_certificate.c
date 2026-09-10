@@ -398,6 +398,6 @@ void stse_certificate_set_stse_companion(stse_Handler_t *pSTSE) {
     }
 }
 
-void stse_certificate_reset_stse_companion() {
+void stse_certificate_reset_stse_companion(void) {
     stsafe_x509_parser_companion_handler = NULL;
 }

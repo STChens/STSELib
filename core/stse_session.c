@@ -19,6 +19,7 @@
 #include <stddef.h>
 #include <string.h>
 
+#include "core/stse_session.h"
 #include "core/stse_device.h"
 #include "core/stse_platform.h"
 #include "core/stse_return_codes.h"
